@@ -1,12 +1,11 @@
-# Oj App #
+# Scalatra Swagger Sample #
+Sample for swagger on scalatra 2.3.x
 
-## Build & Run ##
+
+## Build / Test ##
 
 ```sh
 $ cd Oj_App
 $ ./sbt
-> container:start
-> browse
+> test
 ```
-
-If `browse` doesn't launch your browser, manually open [http://localhost:8080/](http://localhost:8080/) in your browser.
